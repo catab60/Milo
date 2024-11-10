@@ -53,4 +53,16 @@ Ensure you have the following installed on your local machine:
 # Clone the repository
 git clone https://github.com/catab60/Milo.git
 
+# Install requirements.txt
+cd Milo
+pip install -r requirements.txt
+
+# Run Server
+cd Milo/Server
+python server.py
+
+# Run Client
+cd Milo/Client
+python main.py
+
 
