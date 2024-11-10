@@ -282,7 +282,7 @@ class TastyTrails():
             if (present.body.x <= Gx <= present.body.x + present.body.width and
                 present.body.y <= Gy <= present.body.y + present.body.height) and click:
                 self.presents.remove(present)
-                Add_Credits(5)
+                Add_Credits(50)
                 self.count += 1
                 return True
         return False
@@ -516,7 +516,7 @@ class HungryMouth():
         return cls(x, y, width, height, speed, scaled_image)
     
     
-    def update_objects(self, screen, obj, object_list, spawn_rate, maximum):
+    def update_objects(self, screen, obj, object_list, spawn_rate, maximum, Add_credits):
         self.spawn_timer += 1
         if self.spawn_timer >= spawn_rate and len(object_list) < maximum:
             object_list.append(self.spawn1(obj))
@@ -535,6 +535,7 @@ class HungryMouth():
                     self.display_effect(obj.rect.center)
                 elif isinstance(obj, self.Trash):
                     self.state = self.GAME_OVER
+                    self.credits_score(Add_credits)
                     pygame.mixer.music.stop()
                     if self.food > self.highscore:
                         self.highscore = self.food
@@ -567,7 +568,7 @@ class HungryMouth():
             return pygame.font.Font("assets/font.ttf", size)
     
     def credits_score(self, Add_Credits):
-        Add_Credits(int(self.food/5))
+        Add_Credits(int(self.food)*10)
         
 
     def scale_image(self, path, scale_factor):
@@ -628,7 +629,8 @@ class HungryMouth():
         elif self.state == self.GAME_OVER:
             screen.blit(self.image_background, (0, 0))
 
-            self.credits_score(Add_Credits)
+
+            
 
             self.render_text_with_border("YOU LOST", self.fonts(60), self.width // 2, 80,
                 self.WHITE, border_color=self.BLACK, border_width=2)
@@ -642,6 +644,7 @@ class HungryMouth():
                 self.reset_game()
                 self.state = self.PLAYING
                 pygame.mixer.music.play()
+                
 
             if held_keys.get("Escape"):
                 self.state = self.MENU
@@ -655,8 +658,8 @@ class HungryMouth():
 
             self.player.move(self.velocity, held_keys)
 
-            self.update_objects(screen, self.FallingFood, self.falling_food, self.SPAWN_INTERVAL, self.MAX_FOOD)
-            self.update_objects(screen, self.Trash, self.falling_trash, self.SPAWN_INTERVAL_TRASH, self.MAX_TRASH)
+            self.update_objects(screen, self.FallingFood, self.falling_food, self.SPAWN_INTERVAL, self.MAX_FOOD, Add_Credits)
+            self.update_objects(screen, self.Trash, self.falling_trash, self.SPAWN_INTERVAL_TRASH, self.MAX_TRASH, Add_Credits)
 
             self.render_text_with_border(f'Food: {self.food}', self.fonts(20), self.width // 2, 40,
                                           self.WHITE, border_color=self.BLACK, border_width=2)
@@ -961,7 +964,7 @@ class ForestFire():
                     self.fallingList.pop(i)
                     if self.lives  == 0 :
                         pygame.mixer.music.stop()
-                        Add_Credits(int(self.streak/10))
+                        Add_Credits(int(self.streak*5))
                         self.lives = 3
                         self.fallingList = []
                         self.sadSong.play()
@@ -1333,9 +1336,9 @@ class EppyMilo():
                 self.spawnWave()
                 self.gotReward = False
             
-            if self.fleaWave >3 and self.gotReward == False:
+            if self.fleaWave > 3 and self.gotReward == False:
                 self.gotReward = True
-                Add_Credits(2)
+                Add_Credits(50)
             
             try:
                 for i,flea in enumerate(self.fleaList) :
@@ -1432,4 +1435,14 @@ class EppyMilo():
 
             self.render_text_with_both("PLAY",smaller_font , smaller_text_x+100,smaller_text_y , 
                                        (255,255,255), (105,105,105),Gx ,Gy ,click ,border_width= 4)
+
+
+
+
+
+
+
+
+
+
 
