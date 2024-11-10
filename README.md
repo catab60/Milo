@@ -1,4 +1,6 @@
-# Milo 🐾  
+
+![Alt text]("Milo/Client/AppAssets/MiloSmallLogo.png")
+
 **Empowering Animal Shelters Through Fun and Technology**
 
 ## 📜 Overview
