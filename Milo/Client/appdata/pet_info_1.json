@@ -1,0 +1,36 @@
+{
+    "pet": {
+        "details": {
+            "adoption_fee": "100",
+            "age": "4",
+            "breed": "Golden",
+            "color": "Yellow",
+            "images": [
+                "files/image_1_1.jpg",
+                "files/image_1_2.jpg"
+            ],
+            "microchipped": true,
+            "sex": "M",
+            "spayed_neutered": false,
+            "special_needs": "-",
+            "type": "Catel",
+            "vaccinated": true,
+            "weight": "4"
+        },
+        "name": "Micky"
+    },
+    "shelter": {
+        "contact": {
+            "email": "cata@gmail.com",
+            "phone": "074",
+            "website": "-"
+        },
+        "location": {
+            "address": "Str. Moldovei nr. 7",
+            "city": "Arad",
+            "state": "Arad",
+            "zip": "53093"
+        },
+        "name": "AradShelter"
+    }
+}

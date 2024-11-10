@@ -1,0 +1,1 @@
+GlobalCurrency = 100

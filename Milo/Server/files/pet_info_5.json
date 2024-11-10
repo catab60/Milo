@@ -1,0 +1,36 @@
+{
+    "pet": {
+        "name": "Ares",
+        "details": {
+            "age": "14",
+            "type": "Dog",
+            "breed": "GoldenRetriever",
+            "sex": "Masculin",
+            "weight": "12",
+            "color": "Yellow",
+            "vaccinated": "Da",
+            "microchipped": "Nu",
+            "spayed_neutered": "Nu",
+            "special_needs": "-",
+            "adoption_fee": "100",
+            "images": [
+                "files/image_5_1.jpg",
+                "files/image_5_2.jpg"
+            ]
+        }
+    },
+    "shelter": {
+        "name": "AradShelter",
+        "location": {
+            "address": "Str. Ayan Nr.6",
+            "city": "Arad",
+            "state": "Arad",
+            "zip": "374938"
+        },
+        "contact": {
+            "phone": "0743101079",
+            "email": "ayan@gmail.com",
+            "website": "cata.com"
+        }
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "pet": {
+        "name": "Pisi",
+        "details": {
+            "age": "4",
+            "type": "Catel",
+            "breed": "Golden",
+            "sex": "F",
+            "weight": "4",
+            "color": "Yellow",
+            "vaccinated": true,
+            "microchipped": true,
+            "spayed_neutered": false,
+            "special_needs": "-",
+            "adoption_fee": "100",
+            "images": [
+                "files/image_2_1.jpg",
+                "files/image_2_2.jpg",
+                "files/image_2_3.jpg"
+            ]
+        }
+    },
+    "shelter": {
+        "name": "AradShelter",
+        "location": {
+            "address": "Str. Moldovei nr. 7",
+            "city": "Arad",
+            "state": "Arad",
+            "zip": "53093"
+        },
+        "contact": {
+            "phone": "074",
+            "email": "cata@gmail.com",
+            "website": "-"
+        }
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "pet": {
+        "name": "",
+        "details": {
+            "age": "",
+            "type": "",
+            "breed": "",
+            "sex": "",
+            "weight": "",
+            "color": "",
+            "vaccinated": false,
+            "microchipped": false,
+            "spayed_neutered": false,
+            "special_needs": "",
+            "adoption_fee": "",
+            "images": [
+                "files/image_3_1.jpg"
+            ]
+        }
+    },
+    "shelter": {
+        "name": "",
+        "location": {
+            "address": "",
+            "city": "",
+            "state": "",
+            "zip": ""
+        },
+        "contact": {
+            "phone": "",
+            "email": "",
+            "website": ""
+        }
+    }
+}

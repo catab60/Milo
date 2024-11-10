@@ -1,0 +1,36 @@
+{
+    "pet": {
+        "details": {
+            "adoption_fee": "100",
+            "age": "67",
+            "breed": "puric",
+            "color": "red",
+            "images": [
+                "files\\image_6_1.jpg",
+                "files\\image_6_2.jpg"
+            ],
+            "microchipped": "Da",
+            "sex": "Masculin",
+            "spayed_neutered": "Nu",
+            "special_needs": "-",
+            "type": "Dog",
+            "vaccinated": "Nu",
+            "weight": "1"
+        },
+        "name": "Catalin"
+    },
+    "shelter": {
+        "contact": {
+            "email": "cata@gamil.com",
+            "phone": "078",
+            "website": "Burebista.com"
+        },
+        "location": {
+            "address": "arad",
+            "city": "Arad",
+            "state": "Arad",
+            "zip": "78687"
+        },
+        "name": "cata"
+    }
+}

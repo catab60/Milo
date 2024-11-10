@@ -1,0 +1,35 @@
+{
+    "pet": {
+        "name": "Yuna",
+        "details": {
+            "age": "4",
+            "type": "Catel",
+            "breed": "Akita",
+            "sex": "F",
+            "weight": "4",
+            "color": "Portocalier",
+            "vaccinated": true,
+            "microchipped": true,
+            "spayed_neutered": false,
+            "special_needs": "-",
+            "adoption_fee": "10",
+            "images": [
+                "files/image_4_1.jpg"
+            ]
+        }
+    },
+    "shelter": {
+        "name": "ada",
+        "location": {
+            "address": "str",
+            "city": "arad",
+            "state": "arad",
+            "zip": "46346"
+        },
+        "contact": {
+            "phone": "07887",
+            "email": "cata@gmail.com",
+            "website": "-"
+        }
+    }
+}
