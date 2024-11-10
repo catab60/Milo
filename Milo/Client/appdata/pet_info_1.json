@@ -1,36 +1,37 @@
 {
     "pet": {
         "details": {
-            "adoption_fee": "100",
-            "age": "4",
-            "breed": "Golden",
-            "color": "Yellow",
+            "adoption_fee": "10",
+            "age": "2",
+            "breed": "-",
+            "color": "White",
             "images": [
-                "files/image_1_1.jpg",
-                "files/image_1_2.jpg"
+                "files\\image_1_1.jpg",
+                "files\\image_1_2.jpg",
+                "files\\image_1_3.jpg"
             ],
-            "microchipped": true,
-            "sex": "M",
-            "spayed_neutered": false,
-            "special_needs": "-",
-            "type": "Catel",
-            "vaccinated": true,
-            "weight": "4"
+            "microchipped": "Nu",
+            "sex": "Female",
+            "spayed_neutered": "Nu",
+            "special_needs": "No",
+            "type": "Hedgehog",
+            "vaccinated": "Nu",
+            "weight": "1"
         },
-        "name": "Micky"
+        "name": "Dixi"
     },
     "shelter": {
         "contact": {
-            "email": "cata@gmail.com",
-            "phone": "074",
-            "website": "-"
+            "email": "arianaorga@gmail.com",
+            "phone": "0743266517",
+            "website": "https://www.olx.ro/d/oferta/arici-african-pitic-pui-IDiOG06.html"
         },
         "location": {
-            "address": "Str. Moldovei nr. 7",
-            "city": "Arad",
-            "state": "Arad",
-            "zip": "53093"
+            "address": "Str. Jilacea Nr. 92",
+            "city": "Oradea",
+            "state": "Bihor",
+            "zip": "652390"
         },
-        "name": "AradShelter"
+        "name": "Haven for pets"
     }
 }

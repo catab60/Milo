@@ -1,0 +1,36 @@
+{
+    "pet": {
+        "details": {
+            "adoption_fee": "50",
+            "age": "1",
+            "breed": "Agama ",
+            "color": "Orange",
+            "images": [
+                "files\\image_9_1.jpg",
+                "files\\image_9_2.jpg"
+            ],
+            "microchipped": "Nu",
+            "sex": "Male",
+            "spayed_neutered": "Nu",
+            "special_needs": "No",
+            "type": "Reptile",
+            "vaccinated": "Nu",
+            "weight": "1"
+        },
+        "name": "Teri"
+    },
+    "shelter": {
+        "contact": {
+            "email": "dariusfernand@icloud.com",
+            "phone": "072153224",
+            "website": "olx.ro"
+        },
+        "location": {
+            "address": "Str. Iuliusan Nr. 23",
+            "city": "Constanta",
+            "state": "Constanta",
+            "zip": "537291"
+        },
+        "name": "Pets and Freedom"
+    }
+}

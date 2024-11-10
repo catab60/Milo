@@ -1,0 +1,36 @@
+{
+    "pet": {
+        "details": {
+            "adoption_fee": "400",
+            "age": "1",
+            "breed": "Sugar-glide",
+            "color": "Grey",
+            "images": [
+                "files\\image_10_1.jpg",
+                "files\\image_10_2.jpg"
+            ],
+            "microchipped": "Da",
+            "sex": "Male",
+            "spayed_neutered": "Nu",
+            "special_needs": "No",
+            "type": "Squirrel",
+            "vaccinated": "Nu",
+            "weight": "1"
+        },
+        "name": "Michelangelo"
+    },
+    "shelter": {
+        "contact": {
+            "email": "andreimarcu@gmail.com",
+            "phone": "079832451",
+            "website": "olx.ro"
+        },
+        "location": {
+            "address": "Str. Zburatorului Nr. 78",
+            "city": "lipova",
+            "state": "Arad",
+            "zip": "123421"
+        },
+        "name": "Hope for pets"
+    }
+}

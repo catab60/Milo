@@ -1,0 +1,36 @@
+{
+    "pet": {
+        "details": {
+            "adoption_fee": "30",
+            "age": "1",
+            "breed": "Polecat",
+            "color": "Brown",
+            "images": [
+                "files\\image_17_1.jpg",
+                "files\\image_17_2.jpg"
+            ],
+            "microchipped": "Nu",
+            "sex": "Female",
+            "spayed_neutered": "Nu",
+            "special_needs": "No",
+            "type": "Mustela",
+            "vaccinated": "Nu",
+            "weight": "1"
+        },
+        "name": "Jiji"
+    },
+    "shelter": {
+        "contact": {
+            "email": "alinusalin482@gmail.com",
+            "phone": "0722-637 978 ",
+            "website": "https://www.olx.ro/d/oferta/vand-dihori-baiat-si-fetita-IDiOp3T.html"
+        },
+        "location": {
+            "address": "Str. Barbu Patriciu",
+            "city": "Cluj-Napoca",
+            "state": "Cluj",
+            "zip": "400054"
+        },
+        "name": "AlinPets"
+    }
+}

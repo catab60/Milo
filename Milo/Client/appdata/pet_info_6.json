@@ -2,35 +2,35 @@
     "pet": {
         "details": {
             "adoption_fee": "100",
-            "age": "67",
-            "breed": "puric",
-            "color": "red",
+            "age": "8",
+            "breed": "Golden Retriever",
+            "color": "White",
             "images": [
                 "files\\image_6_1.jpg",
                 "files\\image_6_2.jpg"
             ],
-            "microchipped": "Da",
-            "sex": "Masculin",
+            "microchipped": "Nu",
+            "sex": "Female",
             "spayed_neutered": "Nu",
-            "special_needs": "-",
+            "special_needs": "No",
             "type": "Dog",
-            "vaccinated": "Nu",
-            "weight": "1"
+            "vaccinated": "Da",
+            "weight": "11"
         },
-        "name": "Catalin"
+        "name": "Max"
     },
     "shelter": {
         "contact": {
-            "email": "cata@gamil.com",
-            "phone": "078",
-            "website": "Burebista.com"
+            "email": "dantraian@icloud.com",
+            "phone": "0786954325",
+            "website": "olx.ro"
         },
         "location": {
-            "address": "arad",
-            "city": "Arad",
-            "state": "Arad",
-            "zip": "78687"
+            "address": "Str. Cocorilor Nr. 175",
+            "city": "Deva",
+            "state": "Hunedoara",
+            "zip": "739123"
         },
-        "name": "cata"
+        "name": "Heaven for pets"
     }
 }

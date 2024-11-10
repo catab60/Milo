@@ -1,0 +1,36 @@
+{
+    "pet": {
+        "details": {
+            "adoption_fee": "78",
+            "age": "1",
+            "breed": "Labrador",
+            "color": "Brown",
+            "images": [
+                "files\\image_12_1.jpg",
+                "files\\image_12_2.jpg"
+            ],
+            "microchipped": "Da",
+            "sex": "Male",
+            "spayed_neutered": "Nu",
+            "special_needs": "No",
+            "type": "Dog",
+            "vaccinated": "Da",
+            "weight": "2"
+        },
+        "name": "Goofy"
+    },
+    "shelter": {
+        "contact": {
+            "email": "puicalaur@gmail.com",
+            "phone": "0731774336",
+            "website": "olx.ro"
+        },
+        "location": {
+            "address": "Str. Avrac Nr. 90",
+            "city": "Bacau",
+            "state": "Bacau",
+            "zip": "983547"
+        },
+        "name": "Petshope"
+    }
+}

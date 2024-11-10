@@ -1,0 +1,37 @@
+{
+    "pet": {
+        "details": {
+            "adoption_fee": "60",
+            "age": "2",
+            "breed": "Pitbull",
+            "color": "Brown",
+            "images": [
+                "files\\image_15_1.jpg",
+                "files\\image_15_2.jpg",
+                "files\\image_15_3.jpg"
+            ],
+            "microchipped": "Da",
+            "sex": "Female",
+            "spayed_neutered": "Da",
+            "special_needs": "No",
+            "type": "Dog",
+            "vaccinated": "Da",
+            "weight": "15"
+        },
+        "name": "Carla"
+    },
+    "shelter": {
+        "contact": {
+            "email": "happytailstimisoara@gmail.com",
+            "phone": "0248657112",
+            "website": "https://web.facebook.com/HappyTailsTimisoara"
+        },
+        "location": {
+            "address": "Str Ovidiu Cotrus Nr 7",
+            "city": "Timisoara",
+            "state": "Timis",
+            "zip": "300200"
+        },
+        "name": "Happy Tails"
+    }
+}

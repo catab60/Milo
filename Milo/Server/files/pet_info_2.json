@@ -1,37 +1,37 @@
 {
     "pet": {
-        "name": "Pisi",
+        "name": "Trixi",
         "details": {
-            "age": "4",
-            "type": "Catel",
-            "breed": "Golden",
-            "sex": "F",
-            "weight": "4",
-            "color": "Yellow",
-            "vaccinated": true,
-            "microchipped": true,
-            "spayed_neutered": false,
-            "special_needs": "-",
-            "adoption_fee": "100",
+            "age": "1",
+            "type": "Cat",
+            "breed": "Scotish fold blue",
+            "sex": "Female",
+            "weight": "2",
+            "color": "Gray",
+            "vaccinated": "Da",
+            "microchipped": "Da",
+            "spayed_neutered": "Nu",
+            "special_needs": "No",
+            "adoption_fee": "300",
             "images": [
-                "files/image_2_1.jpg",
-                "files/image_2_2.jpg",
-                "files/image_2_3.jpg"
+                "files\\image_2_1.jpg",
+                "files\\image_2_2.jpg",
+                "files\\image_2_3.jpg"
             ]
         }
     },
     "shelter": {
-        "name": "AradShelter",
+        "name": "Pets for you",
         "location": {
-            "address": "Str. Moldovei nr. 7",
-            "city": "Arad",
-            "state": "Arad",
-            "zip": "53093"
+            "address": "Str. Dracolvnic Nr. 2",
+            "city": "Bucharest",
+            "state": "Bucharest",
+            "zip": "326709"
         },
         "contact": {
-            "phone": "074",
-            "email": "cata@gmail.com",
-            "website": "-"
+            "phone": "075689216",
+            "email": "feliciapopa@icloud.com",
+            "website": "olx.ro"
         }
     }
 }

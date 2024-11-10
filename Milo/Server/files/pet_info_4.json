@@ -1,35 +1,37 @@
 {
     "pet": {
-        "name": "Yuna",
+        "name": "Toy",
         "details": {
-            "age": "4",
-            "type": "Catel",
-            "breed": "Akita",
-            "sex": "F",
-            "weight": "4",
-            "color": "Portocalier",
-            "vaccinated": true,
-            "microchipped": true,
-            "spayed_neutered": false,
-            "special_needs": "-",
-            "adoption_fee": "10",
+            "age": "1",
+            "type": "Dog",
+            "breed": "Poodle",
+            "sex": "Male",
+            "weight": "1",
+            "color": "Brown",
+            "vaccinated": "Da",
+            "microchipped": "Da",
+            "spayed_neutered": "Da",
+            "special_needs": "No",
+            "adoption_fee": "500",
             "images": [
-                "files/image_4_1.jpg"
+                "files\\image_4_1.jpg",
+                "files\\image_4_2.jpg",
+                "files\\image_4_3.jpg"
             ]
         }
     },
     "shelter": {
-        "name": "ada",
+        "name": "PAWhav",
         "location": {
-            "address": "str",
-            "city": "arad",
-            "state": "arad",
-            "zip": "46346"
+            "address": "Str. Gutuiului Nr. 65",
+            "city": "Arad",
+            "state": "Arad",
+            "zip": "639871"
         },
         "contact": {
-            "phone": "07887",
-            "email": "cata@gmail.com",
-            "website": "-"
+            "phone": "078965241",
+            "email": "estratajichici@gmail.com",
+            "website": "olx.ro"
         }
     }
 }

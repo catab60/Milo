@@ -1,0 +1,35 @@
+{
+    "pet": {
+        "name": "Tonto",
+        "details": {
+            "age": "2",
+            "type": "Dog",
+            "breed": "Metis",
+            "sex": "Male",
+            "weight": "15",
+            "color": "White",
+            "vaccinated": "Da",
+            "microchipped": "Nu",
+            "spayed_neutered": "Nu",
+            "special_needs": "No",
+            "adoption_fee": "25",
+            "images": [
+                "files\\image_13_1.jpg"
+            ]
+        }
+    },
+    "shelter": {
+        "name": "Danyflor",
+        "location": {
+            "address": "Str. Morilor Nr. 12",
+            "city": "Timisoara",
+            "state": "Timis",
+            "zip": "307395\n"
+        },
+        "contact": {
+            "phone": "0256 395 051",
+            "email": "danyflorcanisa@yahoo.com",
+            "website": "https://www.danyflor.ro/animal/mascul-talie-mare-7/"
+        }
+    }
+}

@@ -1,36 +1,37 @@
 {
     "pet": {
         "details": {
-            "adoption_fee": "100",
-            "age": "14",
-            "breed": "GoldenRetriever",
-            "color": "Yellow",
+            "adoption_fee": "670",
+            "age": "1",
+            "breed": "British",
+            "color": "Gold",
             "images": [
-                "files/image_5_1.jpg",
-                "files/image_5_2.jpg"
+                "files\\image_5_1.jpg",
+                "files\\image_5_2.jpg",
+                "files\\image_5_3.jpg"
             ],
             "microchipped": "Nu",
-            "sex": "Masculin",
+            "sex": "Male",
             "spayed_neutered": "Nu",
-            "special_needs": "-",
-            "type": "Dog",
+            "special_needs": "No",
+            "type": "Cat",
             "vaccinated": "Da",
-            "weight": "12"
+            "weight": "3"
         },
-        "name": "Ares"
+        "name": "Rexi"
     },
     "shelter": {
         "contact": {
-            "email": "ayan@gmail.com",
-            "phone": "0743101079",
-            "website": "cata.com"
+            "email": "shaolinbarb@gmail.com",
+            "phone": "0731447562",
+            "website": "olx.ro"
         },
         "location": {
-            "address": "Str. Ayan Nr.6",
-            "city": "Arad",
-            "state": "Arad",
-            "zip": "374938"
+            "address": "Str. Campina Nr. 76",
+            "city": "Pitesti",
+            "state": "Pitesti",
+            "zip": "876509"
         },
-        "name": "AradShelter"
+        "name": "PAWhav"
     }
 }

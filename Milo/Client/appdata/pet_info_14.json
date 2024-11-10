@@ -1,0 +1,36 @@
+{
+    "pet": {
+        "details": {
+            "adoption_fee": "10",
+            "age": "1",
+            "breed": "Metis",
+            "color": "Black",
+            "images": [
+                "files\\image_14_1.jpg",
+                "files\\image_14_2.jpg"
+            ],
+            "microchipped": "Nu",
+            "sex": "Female",
+            "spayed_neutered": "Da",
+            "special_needs": "Deaf",
+            "type": "Dog",
+            "vaccinated": "Da",
+            "weight": "8"
+        },
+        "name": "Mona"
+    },
+    "shelter": {
+        "contact": {
+            "email": "lorena.suciu@gmail.com",
+            "phone": "256221496",
+            "website": "https://web.facebook.com/groups/157240257718574/user/100000272430153/"
+        },
+        "location": {
+            "address": "Bd. 16 Decembrie Nr. 13",
+            "city": "Timisoara",
+            "state": "Timis",
+            "zip": "300013"
+        },
+        "name": "AADAT"
+    }
+}

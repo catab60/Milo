@@ -1,37 +1,36 @@
 {
     "pet": {
         "details": {
-            "adoption_fee": "100",
-            "age": "67",
-            "breed": "puric",
-            "color": "red",
+            "adoption_fee": "789",
+            "age": "2",
+            "breed": "-",
+            "color": "Black",
             "images": [
                 "files\\image_7_1.jpg",
-                "files\\image_7_2.jpg",
-                "files\\image_7_3.jpg"
+                "files\\image_7_2.jpg"
             ],
-            "microchipped": "Da",
-            "sex": "Masculin",
+            "microchipped": "Nu",
+            "sex": "Male",
             "spayed_neutered": "Nu",
-            "special_needs": "-",
-            "type": "Dog",
+            "special_needs": "No",
+            "type": "Snake",
             "vaccinated": "Nu",
-            "weight": "1"
+            "weight": "6"
         },
-        "name": "Catalin"
+        "name": "Pablo"
     },
     "shelter": {
         "contact": {
-            "email": "cata@gamil.com",
-            "phone": "078",
-            "website": "Burebista.com"
+            "email": "cristianhorca@gmail.com",
+            "phone": "072155246",
+            "website": "olx.ro"
         },
         "location": {
-            "address": "arad",
-            "city": "Arad",
-            "state": "Arad",
-            "zip": "78687"
+            "address": "Str. Vanatorilor Nr. 80",
+            "city": "Brasov",
+            "state": "Brasov",
+            "zip": "142793"
         },
-        "name": "cata"
+        "name": "Furpet"
     }
 }

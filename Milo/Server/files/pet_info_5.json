@@ -1,36 +1,37 @@
 {
     "pet": {
-        "name": "Ares",
+        "name": "Rexi",
         "details": {
-            "age": "14",
-            "type": "Dog",
-            "breed": "GoldenRetriever",
-            "sex": "Masculin",
-            "weight": "12",
-            "color": "Yellow",
+            "age": "1",
+            "type": "Cat",
+            "breed": "British",
+            "sex": "Male",
+            "weight": "3",
+            "color": "Gold",
             "vaccinated": "Da",
             "microchipped": "Nu",
             "spayed_neutered": "Nu",
-            "special_needs": "-",
-            "adoption_fee": "100",
+            "special_needs": "No",
+            "adoption_fee": "670",
             "images": [
-                "files/image_5_1.jpg",
-                "files/image_5_2.jpg"
+                "files\\image_5_1.jpg",
+                "files\\image_5_2.jpg",
+                "files\\image_5_3.jpg"
             ]
         }
     },
     "shelter": {
-        "name": "AradShelter",
+        "name": "PAWhav",
         "location": {
-            "address": "Str. Ayan Nr.6",
-            "city": "Arad",
-            "state": "Arad",
-            "zip": "374938"
+            "address": "Str. Campina Nr. 76",
+            "city": "Pitesti",
+            "state": "Pitesti",
+            "zip": "876509"
         },
         "contact": {
-            "phone": "0743101079",
-            "email": "ayan@gmail.com",
-            "website": "cata.com"
+            "phone": "0731447562",
+            "email": "shaolinbarb@gmail.com",
+            "website": "olx.ro"
         }
     }
 }

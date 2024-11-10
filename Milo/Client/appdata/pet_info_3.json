@@ -1,35 +1,35 @@
 {
     "pet": {
         "details": {
-            "adoption_fee": "",
-            "age": "",
-            "breed": "",
-            "color": "",
+            "adoption_fee": "200",
+            "age": "4",
+            "breed": "Yorkshire terrier",
+            "color": "Black ",
             "images": [
-                "files/image_3_1.jpg"
+                "files\\image_3_1.jpg"
             ],
-            "microchipped": false,
-            "sex": "",
-            "spayed_neutered": false,
-            "special_needs": "",
-            "type": "",
-            "vaccinated": false,
-            "weight": ""
+            "microchipped": "Nu",
+            "sex": "Male",
+            "spayed_neutered": "Nu",
+            "special_needs": "No",
+            "type": "Dog",
+            "vaccinated": "Da",
+            "weight": "1"
         },
-        "name": ""
+        "name": "Mikie"
     },
     "shelter": {
         "contact": {
-            "email": "",
-            "phone": "",
-            "website": ""
+            "email": "marianhurgat@icloud.com",
+            "phone": "0769835217",
+            "website": "olx.ro"
         },
         "location": {
-            "address": "",
-            "city": "",
-            "state": "",
-            "zip": ""
+            "address": "Str. Marginea Nr. 33",
+            "city": "Timisoara",
+            "state": "Timis",
+            "zip": "142659"
         },
-        "name": ""
+        "name": "Furhaven"
     }
 }

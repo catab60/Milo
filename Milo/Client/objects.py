@@ -201,8 +201,38 @@ class GameObj(Frame):
         self.imgFrame.place(x=5, y=5)
 
 
+        self.img = self.resize_and_crop_center(Image.open(f"assets/{game_ID}.png"), target_height=195, target_width=400)
+        self.img = ImageTk.PhotoImage(self.img)
+
+        self.banner = Label(self.imgFrame, image=self.img, bg=SecondaryColor)
+        self.banner.place(relx=0.5, rely=0.5, anchor=CENTER)
+
+
         RoundedButton(self.bFrame, text="P L A Y", command=lambda : FullDisplay.manager(game_ID, gameClass), width=400, fontSize=30, bg=PrimaryColor, back=SecondaryColor).place(relx=0.5, rely=0.87, anchor=CENTER)
 
+    def resize_and_crop_center(self, image, target_width=184, target_height=200, corner_radius=20):
+        # Resize the image to fit the target height while maintaining aspect ratio
+        aspect_ratio = image.width / image.height
+        new_width = int(target_height * aspect_ratio)
+        resized_image = image.resize((new_width, target_height), Image.ANTIALIAS)
+
+        # Crop the image to the target width from the center
+        left = (new_width - target_width) // 2
+        cropped_image = resized_image.crop((left, 0, left + target_width, target_height))
+
+        # Create a new image with an alpha channel (transparent background)
+        rounded_image = Image.new("RGBA", (target_width, target_height), (0, 0, 0, 0))
+
+        # Draw rounded corners directly on the image
+        mask = Image.new("L", (target_width, target_height), 0)
+        draw = ImageDraw.Draw(mask)
+        draw.rounded_rectangle([(0, 0), (target_width, target_height)], radius=corner_radius, fill=255)
+
+        # Apply the mask directly to the cropped image
+        cropped_image.putalpha(mask)
+        rounded_image.paste(cropped_image, (0, 0), cropped_image)
+
+        return rounded_image
 
 class MessageFrame(Frame):
     def __init__(self, parent, text, width, height, is_client, *args, **kwargs):
@@ -1160,9 +1190,17 @@ class Scrollable(Frame):
         self.place(x=self.x, y=self.y)
 
     def add_widgets(self, widget):
-        kids = widget.winfo_children()
+
+        def get_all_children(widget):
+            kids = widget.winfo_children()
+            for child in kids:
+                kids.extend(get_all_children(child))
+            return kids
+        kids = get_all_children(widget)
         number_of_widgets = len(self.widgets)
         self.widgets.append(widget)
+
+
 
         if number_of_widgets == 0:
             self.first_elem = self.widgets[0]
@@ -1180,9 +1218,32 @@ class Scrollable(Frame):
     
     def scroll_win64(self, event):
         if event.delta > 0:
-            print("down")
+            if self.first_elem.winfo_y()<0:
+                for kid in range(len(self.widgets)):
+                    try:
+                        if self.elem_pos[kid] > -500:
+                            self.widgets[kid].place(x=self.widgets[kid].winfo_x(),y=self.elem_pos[kid]+self.scroll_factor)
+                        self.elem_pos[kid] = self.elem_pos[kid]+self.scroll_factor
+                    except:
+                        pass
+
+            try:
+                self.load_unload()
+            except:
+                pass
+            
         else:
-            print("up")
+            if self.last_elem.winfo_y() + self.last_elem.height+self.last_elem.outline_thickness_X*2 > self.winfo_height():
+                for kid in range(len(self.widgets)):
+                    try:
+                        self.widgets[kid].place(x=self.widgets[kid].winfo_x(),y=self.elem_pos[kid]-self.scroll_factor)
+                        self.elem_pos[kid] = self.elem_pos[kid]-self.scroll_factor
+                    except:
+                        pass
+            try:
+                self.load_unload()
+            except:
+                pass
 
     def scroll_down_linx(self, event):
         if self.last_elem.winfo_y() + self.last_elem.height+self.last_elem.outline_thickness_X*2 > self.winfo_height():

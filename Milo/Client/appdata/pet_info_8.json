@@ -1,0 +1,37 @@
+{
+    "pet": {
+        "details": {
+            "adoption_fee": "235",
+            "age": "1",
+            "breed": "Pomeranian",
+            "color": "White",
+            "images": [
+                "files\\image_8_1.jpg",
+                "files\\image_8_2.jpg",
+                "files\\image_8_3.jpg"
+            ],
+            "microchipped": "Da",
+            "sex": "Male",
+            "spayed_neutered": "Nu",
+            "special_needs": "No",
+            "type": "Dog",
+            "vaccinated": "Da",
+            "weight": "1"
+        },
+        "name": "Marlo"
+    },
+    "shelter": {
+        "contact": {
+            "email": "ralucaconstantin@gmail.com",
+            "phone": "075328735",
+            "website": "olx.ro"
+        },
+        "location": {
+            "address": "Str. Maniu Nr. 92",
+            "city": "Ploiesti",
+            "state": "Prahova",
+            "zip": "284092"
+        },
+        "name": "Freepaw"
+    }
+}

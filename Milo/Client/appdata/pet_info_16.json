@@ -1,0 +1,36 @@
+{
+    "pet": {
+        "details": {
+            "adoption_fee": "50",
+            "age": "2",
+            "breed": "Ragdoll",
+            "color": "White",
+            "images": [
+                "files\\image_16_1.jpg",
+                "files\\image_16_2.jpg"
+            ],
+            "microchipped": "Nu",
+            "sex": "Male",
+            "spayed_neutered": "Nu",
+            "special_needs": "Not friendly with dogs",
+            "type": "Cat",
+            "vaccinated": "Da",
+            "weight": "5"
+        },
+        "name": "Aris"
+    },
+    "shelter": {
+        "contact": {
+            "email": "bella.vetstory@gmail.com",
+            "phone": "0746 138 180",
+            "website": "https://www.adoptiipisici.ro/se-da-spre-adoptie-domnisorul-aris%f0%9f%ab%b6/"
+        },
+        "location": {
+            "address": "Bulevardul Alexandru Obregia Nr. 31",
+            "city": "Bucharest",
+            "state": "Ilfov",
+            "zip": "041728"
+        },
+        "name": "Bella Vet Story"
+    }
+}

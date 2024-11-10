@@ -1,37 +1,37 @@
 {
     "pet": {
         "details": {
-            "adoption_fee": "100",
-            "age": "4",
-            "breed": "Golden",
-            "color": "Yellow",
+            "adoption_fee": "300",
+            "age": "1",
+            "breed": "Scotish fold blue",
+            "color": "Gray",
             "images": [
-                "files/image_2_1.jpg",
-                "files/image_2_2.jpg",
-                "files/image_2_3.jpg"
+                "files\\image_2_1.jpg",
+                "files\\image_2_2.jpg",
+                "files\\image_2_3.jpg"
             ],
-            "microchipped": true,
-            "sex": "F",
-            "spayed_neutered": false,
-            "special_needs": "-",
-            "type": "Catel",
-            "vaccinated": true,
-            "weight": "4"
+            "microchipped": "Da",
+            "sex": "Female",
+            "spayed_neutered": "Nu",
+            "special_needs": "No",
+            "type": "Cat",
+            "vaccinated": "Da",
+            "weight": "2"
         },
-        "name": "Pisi"
+        "name": "Trixi"
     },
     "shelter": {
         "contact": {
-            "email": "cata@gmail.com",
-            "phone": "074",
-            "website": "-"
+            "email": "feliciapopa@icloud.com",
+            "phone": "075689216",
+            "website": "olx.ro"
         },
         "location": {
-            "address": "Str. Moldovei nr. 7",
-            "city": "Arad",
-            "state": "Arad",
-            "zip": "53093"
+            "address": "Str. Dracolvnic Nr. 2",
+            "city": "Bucharest",
+            "state": "Bucharest",
+            "zip": "326709"
         },
-        "name": "AradShelter"
+        "name": "Pets for you"
     }
 }

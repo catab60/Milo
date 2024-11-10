@@ -1,0 +1,36 @@
+{
+    "pet": {
+        "name": "Missi",
+        "details": {
+            "age": "2",
+            "type": "Cat",
+            "breed": "-",
+            "sex": "Female",
+            "weight": "3",
+            "color": "Grey",
+            "vaccinated": "Da",
+            "microchipped": "Nu",
+            "spayed_neutered": "Da",
+            "special_needs": "No",
+            "adoption_fee": "90",
+            "images": [
+                "files\\image_11_1.jpg",
+                "files\\image_11_2.jpg"
+            ]
+        }
+    },
+    "shelter": {
+        "name": "RESCUEpaw",
+        "location": {
+            "address": "Str. Pinului Nr. 84",
+            "city": "Ineu",
+            "state": "Arad",
+            "zip": "908975"
+        },
+        "contact": {
+            "phone": "079832456",
+            "email": "anaolariu@gmail.com",
+            "website": "olx.ro"
+        }
+    }
+}

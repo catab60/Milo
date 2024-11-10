@@ -1,36 +1,37 @@
 {
     "pet": {
-        "name": "Micky",
+        "name": "Dixi",
         "details": {
-            "age": "4",
-            "type": "Catel",
-            "breed": "Golden",
-            "sex": "M",
-            "weight": "4",
-            "color": "Yellow",
-            "vaccinated": true,
-            "microchipped": true,
-            "spayed_neutered": false,
-            "special_needs": "-",
-            "adoption_fee": "100",
+            "age": "2",
+            "type": "Hedgehog",
+            "breed": "-",
+            "sex": "Female",
+            "weight": "1",
+            "color": "White",
+            "vaccinated": "Nu",
+            "microchipped": "Nu",
+            "spayed_neutered": "Nu",
+            "special_needs": "No",
+            "adoption_fee": "10",
             "images": [
-                "files/image_1_1.jpg",
-                "files/image_1_2.jpg"
+                "files\\image_1_1.jpg",
+                "files\\image_1_2.jpg",
+                "files\\image_1_3.jpg"
             ]
         }
     },
     "shelter": {
-        "name": "AradShelter",
+        "name": "Haven for pets",
         "location": {
-            "address": "Str. Moldovei nr. 7",
-            "city": "Arad",
-            "state": "Arad",
-            "zip": "53093"
+            "address": "Str. Jilacea Nr. 92",
+            "city": "Oradea",
+            "state": "Bihor",
+            "zip": "652390"
         },
         "contact": {
-            "phone": "074",
-            "email": "cata@gmail.com",
-            "website": "-"
+            "phone": "0743266517",
+            "email": "arianaorga@gmail.com",
+            "website": "https://www.olx.ro/d/oferta/arici-african-pitic-pui-IDiOG06.html"
         }
     }
 }
