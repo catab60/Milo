@@ -200,7 +200,6 @@ class GameObj(Frame):
         self.imgFrame = RoundedFrame(self.bFrame, width=400,height=195, bg=PrimaryColor, back=SecondaryColor)
         self.imgFrame.place(x=5, y=5)
 
-
         self.img = self.resize_and_crop_center(Image.open(f"assets/{game_ID}.png"), target_height=195, target_width=400)
         self.img = ImageTk.PhotoImage(self.img)
 
@@ -443,8 +442,9 @@ class GameDisplay(Frame):
 
 
 
-        for i in range(1,len(self.ServerGame)+1):
+        for i in range(1, len(self.ServerGame)+1):
             self.add_games(i, self.ServerGame[i-1])
+            print(self.ServerGame)
 
 
     def add_games(self, game_ID, gameClass):

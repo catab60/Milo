@@ -19,7 +19,7 @@ class Engine(tk.Frame):
 
         self.master = master
         self.config(width=self.screen_width, height=self.screen_height)
-    
+        
         
         
         self.screen = pygame.display.set_mode((self.screen_width,self.screen_height))
@@ -41,7 +41,8 @@ class Engine(tk.Frame):
         self.Gy = 0
         self.Gx = 0
         self.click = False
-        self.held_keys = {}
+        self.held_keys = {'Left':False , 'Up' : False , 'Down' : False , 'Right' : False} # asta am schimbat
+        self.master.focus_set()
         self.master.bind("<KeyPress>", self.on_key_press)
         self.master.bind("<KeyRelease>", self.on_key_release)
 
@@ -87,6 +88,8 @@ class Engine(tk.Frame):
         self.game.update(self.screen, self.held_keys, self.Gx, self.Gy, self.click, self.Add_Credits)
         self.reset_click()
 
+
+        
         pygame.display.flip()
         self.pygame_image_str = pygame.image.tostring(self.screen, "RGBA")
         self.image = Image.frombytes('RGBA', (self.screen_width,self.screen_height), self.pygame_image_str)
@@ -97,5 +100,7 @@ class Engine(tk.Frame):
             self.master.after(0, self.update_game)
         except:
             pass
+
+        self.clock.tick(60) # aici am schimbat
 
 

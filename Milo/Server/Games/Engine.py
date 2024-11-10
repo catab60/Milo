@@ -42,6 +42,7 @@ class Engine(tk.Frame):
         self.Gx = 0
         self.click = False
         self.held_keys = {'Left':False , 'Up' : False , 'Down' : False , 'Right' : False} # asta am schimbat
+        self.master.focus_set()
         self.master.bind("<KeyPress>", self.on_key_press)
         self.master.bind("<KeyRelease>", self.on_key_release)
 
@@ -97,5 +98,7 @@ class Engine(tk.Frame):
             self.master.after(0, self.update_game)
         except:
             pass
+
+        self.clock.tick(60) # aici am schimbat
 
 
