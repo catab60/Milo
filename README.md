@@ -47,8 +47,6 @@ We chose the **Sustainable Development** track for this project because we belie
 ### Prerequisites
 Ensure you have the following installed on your local machine:
 - Python 3.x
-- Node.js (for frontend development)
-- [Expo CLI](https://docs.expo.dev/get-started/installation/) (for React Native)
 
 ### Installation
 ```bash
