@@ -1,5 +1,4 @@
-
-![Alt text]("Milo/Client/AppAssets/MiloSmallLogo.png")
+# Milo 🐾
 
 **Empowering Animal Shelters Through Fun and Technology**
 
