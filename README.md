@@ -3,14 +3,14 @@
 
 **Empowering Animal Shelters Through Fun and Technology**
 
-## Overview 📜
+## 📜 Overview
 **Milo** is an innovative app designed to address the challenges faced by shelter animals. Many animals are euthanized due to a lack of resources, but **Milo** provides a solution by allowing users to support these shelters indirectly through interactive and enjoyable games.
 
 By playing games, watching ads, and accumulating **MiloCoins**, users can help fund shelter needs (1,000 MiloCoins = 1 euro). Additionally, the app promotes pet adoption by featuring detailed profiles of animals in need of homes, and it integrates AI to provide personalized health advice for pets.
 
 ---
 
-## Key Features <img src="https://raw.githubusercontent.com/catab60/Milo/refs/heads/main/Milo/Client/AppAssets/coin.png" width=20>
+##  <img src="https://raw.githubusercontent.com/catab60/Milo/refs/heads/main/Milo/Client/AppAssets/coin.png" width=50> Key Features
 
 
 ### 1. **Adoption Assistance**
